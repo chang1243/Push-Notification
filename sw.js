@@ -30,7 +30,7 @@ var options = {
     icon: 'images/example.png',
      vibrate: [100,50,100],
      date: {
-             dateOfArrival: date.now(),
+             dateOfArrival: Date.now(),
                primaryKey: '2'
               },
 
