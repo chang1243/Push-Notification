@@ -45,5 +45,5 @@ var options = {
                  },
                 ]
      };
-     e.waitUntil(self.ServiceWorkerRegistration.showNotification('Hello World',options));
+     e.waitUntil(self.registration.showNotification('Hello World',options));
 });
